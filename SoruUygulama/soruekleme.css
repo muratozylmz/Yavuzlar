@@ -1,0 +1,54 @@
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.konteyner{
+    background-color: rgb(255, 255, 255);
+    padding:50px;
+    width: 400px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 100px;
+    box-shadow: #040202 0px 0px 10px;
+}
+h1{
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#arama{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    width: 500px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(208, 222, 151);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}

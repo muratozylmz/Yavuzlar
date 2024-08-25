@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soru Ekleme</title>
+    <link rel="stylesheet" href="soruekleme.css">
+</head>
+<body>
+    <div class="konteyner">
+        <h1>Soru Ekle</h1>
+        <form id="Form">
+            <label for="soru">Soruyu Yazınız</label>
+            <input type="text" id="soru" placeholder="Soru">
+            <label for="cevap1">A seçeneği nedir?</label>
+            <input type="text" id="cevap1" required>
+            <label for="cevap2">B Seçeneği nedir?</label>
+            <input type="text" id="cevap2" required>
+            <label for="cevap3">C Seçeneği nedir?</label>
+            <input type="text" id="cevap3" required>
+            <label for="cevap4">D seçeneği nedir?</label>
+            <input type="text" id="cevap4" required>
+            <label for="dogruCevap">Doğru Cevap:</label>
+            <select id="dogruCevap" required>
+                <option value="cevap1">A</option>
+                <option value="cevap2">B</option>
+                <option value="cevap3">C</option>
+                <option value="cevap4">D</option>
+            </select>
+            <label for="zorluk">Zorluk Derecesi</label>
+            <select id="zorluk">
+                <option value="Kolay">Kolay</option>
+                <option value="Orta">Orta</option>
+                <option value="Zor">Zor</option>
+            </select>
+            <button type="submit">Soru Ekle</button>
+        </form>
+    </div>
+        <h1>Sorular</h1>
+        <input type="text" id="arama" placeholder="Ara">
+
+        <ul id="liste"></ul>
+
+
+        <script src="script.js"></script>
+        <script src="design.js"></script>
+</body>
+</html>
