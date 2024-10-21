@@ -1,0 +1,14 @@
+.resimSlider{
+
+   height: 600px;
+}
+
+.hakkimizda{
+
+    background-color: #ca8e8e;
+}
+
+.restoranCard>img:hover{
+    opacity: 0.8;
+}
+
